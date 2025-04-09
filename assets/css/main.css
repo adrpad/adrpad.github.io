@@ -3571,6 +3571,7 @@ sub,sup {
   border:1px solid #1a222c;
   border-radius:10px;
   text-align:center;
+  vertical-align: center;
   outline:0;
   text-decoration:none;
   cursor:pointer;
