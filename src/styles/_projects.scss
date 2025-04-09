@@ -52,7 +52,7 @@
 .project-link {
   display: flex;
   flex-direction: row;
-  align-items: center; /* This vertically centers text/images */
+  align-items: stretch; /* This vertically centers text/images */
   justify-content: space-between;
   gap: 20px; /* optional spacing between image and text */
   margin: 10px 0px;
