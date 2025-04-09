@@ -3543,7 +3543,7 @@ sub,sup {
 @media only screen and (min-width:550px) {
 .contents, .contents-right {
   display: flex;         /* Use flexbox for layout */
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;   /* Vertically align items */
   width: 48%;
 }
