@@ -29,30 +29,54 @@
   }
 }
 
-.contents,
-.contents-right,
-.images-left,
-.images-right {
-  width: 48%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* 👈 Vertically center text */
-  align-items: center;
-}
-.images-left img,
-.images-right img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-  display: block;
+.contents {
+  @media only screen and (min-width: $cut) {
+    margin-left: 0;
+    width: 48%;
+
+  }
 }
 
+.contents-right {
+  @media only screen and (min-width: $cut) {
+    float: right;
+    margin-top: -5%;
+    width: 48%;
+
+  }
+}
+.images-right {
+  @media only screen and (min-width: $cut) {
+    float: right;
+    width: 48%;
+
+  }
+  img {
+    @media only screen and (min-width: $cut) {
+      float: right;
+
+    }
+  }
+}
+
+.images-left {
+  @media only screen and (min-width: $cut) {
+    float: left;
+    width: 48%;
+
+  }
+  img {
+    @media only screen and (min-width: $cut) {
+      float: left;
+;
+    }
+  }
+}
 
 .project-link {
   display: flex;
   flex-direction: row;
-  align-items: stretch; /* This vertically centers text/images */
+  align-items: center; /* This vertically centers text/images */
   justify-content: space-between;
   gap: 20px; /* optional spacing between image and text */
   margin: 10px 0px;
