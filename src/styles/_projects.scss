@@ -78,15 +78,19 @@
 }
 
 .project-link {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* This vertically centers text/images */
+  justify-content: space-between;
+  gap: 20px; /* optional spacing between image and text */
   margin: 10px 0px;
-  padding: 5px;
+  padding: 10px;
   color: $main;
   background-color: transparent;
   border: 1px solid $main;
   border-radius: 10px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
   outline: none;
   text-decoration: none;
@@ -94,6 +98,7 @@
   transition: color 0.3s ease-out,
               background-color 0.3s ease-out,
               border-color 0.3s ease-out;
+
   &:hover {
     background-color: $purple;
     border-color: $purple;
@@ -102,6 +107,7 @@
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
   }
+
   &:active {
     background-color: $purple;
     border-color: $purple;
