@@ -3541,21 +3541,21 @@ sub,sup {
   margin-right:5px
 }
 @media only screen and (min-width:550px) {
-.contents, .contents-right {
+.contents {
   display: flex;         /* Use flexbox for layout */
   flex-direction: column;
   align-items: center;   /* Vertically align items */
   width: 48%;
 }
 
-.images-left, .images-right {
+.images {
   display: flex;         /* Use flexbox for layout */
   justify-content: center;  /* Horizontally align image */
   align-items: center;   /* Vertically align image */
   width: 48%;
 }
 
-.images-left img, .images-right img {
+.images img {
   max-width: 100%;   /* Ensure images scale properly */
   height: auto;
 }
