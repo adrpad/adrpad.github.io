@@ -3570,6 +3570,7 @@ sub,sup {
   background-color:transparent;
   border:1px solid #1a222c;
   border-radius:10px;
+  line-height: 100%;
   text-align:center;
   vertical-align: center;
   outline:0;
