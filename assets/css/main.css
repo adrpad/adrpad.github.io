@@ -3603,6 +3603,26 @@ sub,sup {
     max-width: 100%;  /* Ensure images scale properly */
     height: auto;
   }
+      .project-link {
+    width: 100%; /* Make the button full width */
+    padding: 15px; /* Increase the padding for better tap targets */
+    font-size: 1.2rem; /* Increase the font size for readability */
+    text-align: center; /* Center the text inside the button */
+    border-radius: 10px; /* Round the corners for a more button-like look */
+    display: inline-block; /* Ensure it's displayed like a block-level element */
+    background-color: #333; /* Background color of the button */
+    color: white; /* Text color */
+    border: 1px solid #1a222c; /* Border styling */
+    cursor: pointer; /* Makes it appear clickable */
+    transition: background-color .3s ease-out, color .3s ease-out, border-color .3s ease-out;
+  }
+
+  .project-link:hover,
+  .project-link:active {
+    background-color: #54516a; /* Change color on hover/active */
+    border-color: #54516a;
+    color: white;
+  }
 }.project-link {
   display:inline-flex;
   align-items: center;
