@@ -3488,8 +3488,17 @@ sub,sup {
   width:80%
 }
 }.tech {
-  margin:10px
+  flex: 0 0 33.33%;
+  box-sizing: border-box;
+  padding: 10px;
 }
+
+@media only screen and (max-width: 550px) {
+  .tech {
+    flex: 0 0 100%;
+  }
+}
+
 .user {
   text-align:center;
   font-size:60px;
