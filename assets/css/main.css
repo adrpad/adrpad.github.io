@@ -3584,7 +3584,7 @@ sub,sup {
 
 @media only screen and (max-width: 550px) {
   .project-link {
-    background-colour: yellow;
+    background-color: yellow;
     flex-direction: column;
     padding: 10px; /* Optional: Adjust padding for better touch targets */
     width: 100%;   /* Ensures the button takes up full width */
