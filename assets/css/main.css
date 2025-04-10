@@ -3584,13 +3584,12 @@ sub,sup {
 }
 @media only screen and (max-width: 550px) {
   .project-link {
-    background-color: yellow;
+    background-color: yellow !important;
     flex-direction: column;
     padding: 10px; /* Optional: Adjust padding for better touch targets */
     width: 100%;   /* Ensures the button takes up full width */
     height: auto;  /* Ensures the button doesn't collapse in height */
   }
-
 }.project-link {
   display:inline-flex;
   align-items: center;
