@@ -3582,6 +3582,27 @@ sub,sup {
   max-width: 100%;   /* Ensure images scale properly */
   height: auto;
 }
+  @media only screen and (max-width: 550px) {
+  .contents {
+    display: flex;
+    flex-direction: column; /* Stack image on top and content underneath */
+    align-items: center;
+    width: 100%;  /* Full width on mobile */
+    text-align: center; /* Center the text */
+  }
+
+  .images {
+    display: flex;
+    flex-direction: column; /* Stack the image on top */
+    align-items: center;
+    width: 100%; /* Full width for image */
+    justify-content: center;
+  }
+
+  .images img {
+    max-width: 100%;  /* Ensure images scale properly */
+    height: auto;
+  }
 }.project-link {
   display:inline-flex;
   align-items: center;
