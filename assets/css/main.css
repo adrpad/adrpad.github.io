@@ -3599,7 +3599,7 @@ sub,sup {
     max-width: 100%;  /* Ensure images scale properly */
     height: auto;
   }.project-link {
-    width: 100%; /* Make the button full width */
+    width: 90%; /* Make the button full width */
     padding: 15px; /* Increase the padding for better tap targets */
     font-size: 1.2rem; /* Increase the font size for readability */
     text-align: center; /* Center the text inside the button */
