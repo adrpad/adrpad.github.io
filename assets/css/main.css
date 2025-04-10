@@ -3581,7 +3581,7 @@ sub,sup {
 .images img {
   max-width: 100%;   /* Ensure images scale properly */
   height: auto;
-
+}
 @media only screen and (max-width: 550px) {
   .project-link {
     background-color: yellow;
@@ -3590,7 +3590,7 @@ sub,sup {
     width: 100%;   /* Ensures the button takes up full width */
     height: auto;  /* Ensures the button doesn't collapse in height */
   }
-}
+
 }.project-link {
   display:inline-flex;
   align-items: center;
