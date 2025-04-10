@@ -8,9 +8,24 @@
         <ul> Featured Skills </ul>
       <p>3D Design, Concept Generation, Working in a team, Public Speaking</p>
     </div>
-        <div class="images">
+    <div class="images">
       <img src="{{ "/assets/img/EzDoor.png" | prepend: site.baseurl }}" />
     </div>
+    <script>
+  function checkMediaQuery() {
+    if (window.matchMedia('(max-width: 550px)').matches) {
+      console.log('Media Query Applied: max-width: 550px');
+    } else {
+      console.log('No Media Query Applied');
+    }
+  }
+
+  // Run the check on page load
+  window.addEventListener('load', checkMediaQuery);
+
+  // Also run the check when resizing the window
+  window.addEventListener('resize', checkMediaQuery);
+</script>
   </a>
 </div>
 <div class="user-projects">
