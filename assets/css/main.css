@@ -3582,9 +3582,13 @@ sub,sup {
   max-width: 100%;   /* Ensure images scale properly */
   height: auto;
 }
-  @media only screen and (max-width: 550px) {
-.project-link{
-  flex-direction: column;
+@media only screen and (max-width: 550px) {
+  .project-link {
+    flex-direction: column;
+    padding: 10px; /* Optional: Adjust padding for better touch targets */
+    width: 100%;   /* Ensures the button takes up full width */
+    height: auto;  /* Ensures the button doesn't collapse in height */
+  }
 }
 }.project-link {
   display:inline-flex;
