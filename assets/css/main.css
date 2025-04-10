@@ -3521,7 +3521,7 @@ sub,sup {
 }
 .logo-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 10px;
   margin: 10px 0;
 }
