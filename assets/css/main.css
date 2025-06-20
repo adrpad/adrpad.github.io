@@ -3516,13 +3516,17 @@ sub,sup {
   font-size:75px
 }
 }.user-details {
-  text-align:center;
-  margin:5px auto
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+  margin: 5px auto;
 }.user-details img {
-  display: block;
-  margin: 0 auto 15px auto;
+  width: 250px;
   border-radius: 50%;
 }
+
 .logo-row {
   display: flex;
   justify-content: center;
