@@ -3518,6 +3518,10 @@ sub,sup {
 }.user-details {
   text-align:center;
   margin:5px auto
+}.user-details img {
+  display: block;
+  margin: 0 auto 15px auto;
+  border-radius: 50%;
 }
 .logo-row {
   display: flex;
