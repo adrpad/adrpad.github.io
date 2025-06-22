@@ -3517,21 +3517,30 @@ sub,sup {
 }
 }.user-details {
   display: flex;
-  align-items: center; /* Vertically aligns image with text block */
+  align-items: center; /* Vertically align image and text */
   gap: 30px;
   margin: 5px auto;
-}.user-details img {
+}
+
+.user-details img {
   width: 250px;
   border-radius: 50%;
   display: block;
-  align-self: center; /* Ensures the image follows the container’s vertical alignment */
-}.user-details h1 {
-  margin-top: 0.5em; /* Keeps desired top spacing for heading */
-  margin-bottom: 0.2em;
-}.user-details p {
-  margin-top: 0;
 }
 
+.text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Aligns h1 + p to center of image */
+}
+
+.text-block h1 {
+  margin: 0;
+}
+
+.text-block p {
+  margin: 0.4em 0 0 0; /* Adjust if needed */
+}
 
 .logo-row {
   display: flex;
